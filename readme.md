@@ -1,9 +1,9 @@
-#README
+README
 
-##1. Overview
+1. Overview
 This is a ride hailing app, Banana Ride. The main features are generating the shortest route from start to end point and matching the users with the nearest available driver according to user pereferences. Other features include Account Creation, Help Centre and Ride History. This implementation is limited to the area of Jurong West, Singapore due to limited resources and small assigned time frame. 
 
-##2. Features
+2. Features
     *###Account Creation*
     Users can create an account if they haven't yet to begin using the application. All accounts are stored in an SQL database
     
@@ -24,7 +24,7 @@ This is a ride hailing app, Banana Ride. The main features are generating the sh
     Users have access to a help center where they can send an email to the help center for any enquiries they may have.
     
     
-##3. Installation Guide:
+3. Installation Guide:
 
 1. To be able to run our code you would first need to install anaconda if you haven't already
 2. Once you have anaconda installed, run the following lines of code in your Command Prompt/Terminal 
