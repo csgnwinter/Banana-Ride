@@ -4,7 +4,7 @@ README
 This is a ride hailing app, Banana Ride. The main features are generating the shortest route from start to end point and matching the users with the nearest available driver according to user pereferences. Other features include Account Creation, Help Centre and Ride History. This implementation is limited to the area of Jurong West, Singapore due to limited resources and small assigned time frame. 
 
 2. Features
-    *###Account Creation*
+*###Account Creation*
     Users can create an account if they haven't yet to begin using the application. All accounts are stored in an SQL database
     
     
