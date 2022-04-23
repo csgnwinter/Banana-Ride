@@ -7,23 +7,45 @@ This is a ride hailing app, Banana Ride. The main features are generating the sh
    ### *Account Creation*
 Users can create an account if they haven't yet to begin using the application. All accounts are stored in an SQL database
     
+
+https://user-images.githubusercontent.com/93068145/164891978-a3133dae-e005-45cc-9f60-2f8a96f5cace.mov
+
+
     
    ### *A-Star Search Algorithm*
 User enters 2 postal codes for their start and end locations along with their preferred seats and car type. The algorithm then calculates the shortest route between these two points by using the A* Search algorithm and generates a map with the route plotted. Route plotted is shown by a black line and the start and end points are represented by a yellow pin.
     
+
+https://user-images.githubusercontent.com/93068145/164891985-63842269-d82f-4368-8da0-c7f66909b4f6.mov
+
+
    ### *Driver Matching*
 A nearest available driver, based on user's preference of seats and car type, is then matched to user if there is any. The matched driver's location is then shown on the generated map on the second page. The driver's location is marked with a banana car.
-    
+
+<img width="1126" alt="Screenshot 2022-04-23 at 7 09 31 PM" src="https://user-images.githubusercontent.com/93068145/164892026-80f8bea2-fb43-4421-a848-ed59427fade1.png">
+
    ### *Changing locations*
 While on the second preview page, users have the option to re-enter their start and end locations if they change their minds. Once they click confirm to change the points, the map on the page is then updated with the appropriate and accurate representation of route and the nearest driver matched.
     
+
+https://user-images.githubusercontent.com/93068145/164891990-a72f99d4-6584-4f9e-beed-d6e61f833ae3.mov
+
+
    ### *Ride History*
 Users are able to see their ride history with all necessary information should they wish to keep track of their travelling and expenses.
     
+
+https://user-images.githubusercontent.com/93068145/164891998-3d41152c-6d4d-4f01-bb25-d2e553438d60.mov
+
+
    ### *Help Center*
 Users have access to a help center where they can send an email to the help center for any enquiries they may have.
     
     
+
+https://user-images.githubusercontent.com/93068145/164891995-5f5a40f4-1268-461a-b222-48406987f6d7.mov
+
+
 ## 3. Installation Guide:
 
 1. To be able to run our code you would first need to install anaconda if you haven't already
