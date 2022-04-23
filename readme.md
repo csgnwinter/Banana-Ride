@@ -8,8 +8,8 @@ This is a ride hailing app, Banana Ride. The main features are generating the sh
     Users can create an account if they haven't yet to begin using the application. All accounts are stored in an SQL database
     
     
-   ### *A* Search Algorithm*
-    User enters 2 postal codes for their start and end locations along with their preferred seats and car type. The algorithm then calculates the shortest route between these two points by using the A* Search algorithm and generates a map with the route plotted. Route plotted is shown by a black line and the start and end points are represented by a yellow pin.
+   ### A* Search Algorithm
+User enters 2 postal codes for their start and end locations along with their preferred seats and car type. The algorithm then calculates the shortest route between these two points by using the A* Search algorithm and generates a map with the route plotted. Route plotted is shown by a black line and the start and end points are represented by a yellow pin.
     
    ### Driver Matching
     A nearest available driver, based on user's preference of seats and car type, is then matched to user if there is any. The matched driver's location is then shown on the generated map on the second page. The driver's location is marked with a banana car.
