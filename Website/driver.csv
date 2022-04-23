@@ -1,0 +1,31 @@
+driver_name,car_brand,car_model,car_type,num_seats,isBooked,current_lat,current_long,rating,car_number_plate,car_color
+Deon Dickson,Mitsubishi,Attrage,Sedan,4,1,1.34208,103.687192,1,SBA1641Y,Maroon
+Lilah Riggs,Toyota,Wish,SUV,5,0,1.339499,103.688409,2,SGX8466S,Brown
+Zackery Mcknight,Toyota,Altis,Sedan,4,0,1.342781,103.692241,3,SFA9157S,Orange
+Cael Poole,Hyundai,Alcazar,Minivan,5,0,1.340957,103.692158,4,SLM9943F,Pink
+Mariana Monroe,Toyota ,Esteema,Minivan,5,0,1.339212,103.691797,5,SRQ4032C,Purple
+Chance Neal,Hyundai,Alcazar,SUV,5,1,1.337351,103.693591,4,SHI5279A,Black
+Jayden Walker,Mazda,3 2.0,Sedan,4,0,1.344843,103.691201,2,SDD2616A,Purple
+Samantha Carpenter,Mazda,3 2.0,Sedan,4,0,1.347175,103.694879,2,SCR5579,Black
+Thaddeus Horne,Honda,Freed,Minivan,5,0,1.348506,103.696827,1,SLN7505S,Black
+Alden Charles,Mazda,3 2.0,Sedan,4,0,1.34798,103.700865,4,SNA9223D,Yellow
+Carlos Nicholson,Toyota,Altis,Sedan,4,1,1.342347,103.700694,5,SWQ9687Q,Mint
+Douglas Schneider,Mitsubishi,Attrage,Sedan,4,0,1.339617,103.701104,4,SOJ6472D,Purple
+Larry Mosley,Toyota,Esteema,SUV,5,0,1.341821,103.704483,5,SFA3061F,Red
+Jeffery Villegas,Mitsubishi,Attrage,Sedan,4,1,1.343764,103.706608,4,SGS6554G,Maroon
+Chasity Buckley,Nissan,Elgrand,Minivan,5,0,1.352193,103.699843,3,SYG7513A,Brown
+Braden Velez,Mazda,3 2.0,Sedan,4,1,1.352418,103.705081,2,SBF5615D,Black
+Aylin Ashley,Nissan,Elgrand,SUV,5,0,1.347731,103.710542,4,SCR5484O,Maroon
+Tucker Mullins,Mitsubishi,Lancer GLX,Sedan,4,0,1.347747,103.712234,5,SFF8727I,Biege
+Colt Rosario,Volva,XC90,Minivan,5,0,1.344317,103.711904,3,SYU4939O,Black
+Camren Donovan,Mitsubishi,Lancer GLX,Sedan,4,0,1.343318,103.710749,3,SIJ5184U,Black
+Abram Fuentes,Subaru,Forester,SUV,5,0,1.345828,103.7157,4,SER8805Y,Orange
+Tanner Brandt,Honda ,Shuttle,Minivan,5,0,1.358401,103.70745,3,SGF1002T,Pink
+Lexi Fitzpatrick,Mitsubishi,EVO X,Sedan,4,1,1.35422,103.71567,4,SQW1268H,Black
+Vicente Hawkins,Mazda,6 3.0,Sedan,4,1,1.352303,103.717219,1,SMM9004G,Purple
+Olivia Duke,Nissan,Slphy,Sedan,4,0,1.354597,103.719307,2,SXI3980F,Black
+Graham Holder,Mitsubishi,Lancer GLX,Sedan,4,0,1.34933,103.720805,1,SHY1569D,Biege
+Brandon Webb,Mitsubishi,Lancer GLX,Sedan,4,0,1.352836,103.723984,1,SFD6434V,Rainbow
+Scarlett Page,Honda ,Shuttle,Minivan,5,0,1.351147,103.726244,5,SDD8246B,Black
+Leanna Spencer,Mitsubishi,Attrage,Sedan,4,0,1.345797,103.724981,3,SLK5358V,Orange
+Davin Hampton,Mazda,3 2.0,Sedan,4,1,1.340196,103.719943,5,SNB1602A,Purple

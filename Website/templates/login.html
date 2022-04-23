@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Lift Ride Hailing{% endblock %}
+
+{% block content %}
+    <form method="POST">
+        <h3 align="center">
+            <img src="https://res.cloudinary.com/whathellahor/image/upload/v1648873429/CSC1008/mainLogoGif.gif">
+        </h3><br>
+        <div class="form-group">
+            <input type="text" class="form-control" id="username" name="username" placeholder="Username"/>
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password"/>
+        </div>
+        <div class="form-group1">
+            <a id="signupRef" href="/sign-up"> Do not have an account? Click here to sign up! </a>
+        </div><br>
+        <h5 align="center">
+            <button type="submit" class ="btn btn-primary" id="loginBtn">Login</button>
+        </h5>
+    </form>
+{% endblock %}

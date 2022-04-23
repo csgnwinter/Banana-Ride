@@ -1,0 +1,34 @@
+    {% extends "base.html" %}
+
+    {% block title %}Lift Ride Hailing{% endblock %}
+
+    {% block mapContent %}
+    <form method="POST" id="submitForm">
+        <br>
+        <h3 align="center">Book your ride!</h3><br/>
+        <div class="form-group">
+            <input type="text" maxlength="6" data-rule-maxlength="6" id="startingLocation" name="startingLocation" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength); this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" class="form-control" placeholder="Enter start location"/>
+        </div>
+        <div class="form-group">
+            <input type="text" maxlength="6" data-rule-maxlength="6" id="endingLocation" name="endingLocation" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength); this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" class="form-control" placeholder="Enter end location"/>
+        </div>
+
+        <label for="numOfPassenger">Number of passenger(s):</label>
+        <select id="numOfPassenger" name="numOfPassenger" style="width: 100px; color: dimgrey; border-radius: 5px; float: right;">
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <br>
+        <label for="carType">Car Type:</label>
+        <select id="carType" name="carType" style="width: 100px; color: dimgrey; border-radius: 5px; float: right;">
+            <option value="Sedan">Sedan</option>
+            <option value="Minivan">Minivan</option>
+            <option value="SUV">SUV</option>
+        </select>
+
+        <h5 align="center"><br>
+            <button type="submit" class="btn btn-primary" id="routeOutput">Book</button>
+        </h5>
+    </form>
+    {% endblock %}

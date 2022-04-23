@@ -1,0 +1,29 @@
+    {% extends "base.html" %}
+
+    {% block title %}Lift Ride Hailing{% endblock %}
+
+    {% block content %}
+    <div class='parent'>
+      <div class='child'>
+          <div id="leftSect">
+              <img src="https://res.cloudinary.com/whathellahor/image/upload/v1649299116/CSC1008/confirmationLogo.png" class="confirmSect" width="150" height="150">
+              <p class="confirmSect" id="thankYouMsg">Thank you for booking a ride with us!</p>
+              <p class="confirmSect" id="rideConfirmedMsg">Your ride has been confirmed!</p>
+          </div>
+      </div>
+      <div class='child'>
+          <div id="rightSect">
+              <p>Pick-Up Location: {{ startingLocation }}</p>
+              <p>Drop-Off Location: {{ endingLocation }}</p>
+              <p>Number of Passengers: {{ numOfPassengers }}</p>
+              <p>Car Type: {{ carType }}</p>
+              <p>Total Cost: SGD{{ cost }}</p>
+          </div>
+      </div>
+    </div>
+    <form method="POST">
+        <div id="btnSect">
+            <button type="submit" id="backToHome">Return to home</button>
+        </div>
+    </form>
+    {% endblock %}

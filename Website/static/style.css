@@ -1,0 +1,202 @@
+#loginBtn, #signUpBtn{
+    background-color: gold;
+    color: black;
+    border: none;
+    width: 150px;
+}
+
+#startingLocation, #endingLocation{
+    max-width: 100%;
+    display: block;
+    margin:auto;
+    overflow-y: hidden;
+}
+
+#username, #password, #password1, #password2{
+    max-width: 100%;
+    width: 400px;
+    margin: 0px auto;
+}
+
+#confirmationTable{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#welcomeTag{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.form-group1{
+    max-width: 100%;
+    width: 400px;
+    margin: 0px auto;
+}
+
+#signupRef{
+    color: red;
+    text-decoration: underline;
+    align-content: center;
+}
+
+#manageAcc, #favourites, #myVouchers, #helpCenter, #rideHistory, #home{
+    color: #ffaa04;
+}
+
+#routeOutput{
+    width: 100%;
+    background-color: gold;
+    color: black;
+    border: none;
+}
+
+#submitForm{
+    width: 30%;
+    margin: 4% auto 0;
+    background-color: #f7f7f7;
+    padding: 2%;
+    border-width: 20px;
+}
+
+#historyTableMain{
+    background-color: #f7f7f7;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#testForm{
+    max-width: 70%;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#formBlock{
+    width: 100%;
+}
+
+#confirmationSection label{
+    font-weight: bold;
+}
+
+#confirmButton{
+    background-color: #22c952;
+    padding: 5%;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#confirmationButton{
+    margin: 1% 0 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#confirmationSection input{
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    padding: 0.5%;
+    width: 100px;
+}
+
+#mapContainer{
+    height: 400px;
+}
+
+iframe{
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+.parent {
+    margin: 1rem;
+    text-align: center;
+    height: 500px;
+}
+
+.child {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+#leftSect, #rightSect{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#backToHome{
+    width: 20%;
+    background-color: gold;
+    border: none;
+    padding: 1%;
+}
+
+#btnSect{
+    margin: 1rem;
+    text-align: center;
+}
+
+#thankYouMsg{
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+#welcomeHeader{
+    padding-left: 20px;
+}
+
+#historyTitle{
+    margin-top: 4%;
+    padding-top: 20px;
+}
+
+#historyTable {
+    margin-top: 2%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header, .data, .header1 {
+    text-align: left;
+    padding: 8px;
+}
+
+.header{
+    background-color: #f6d792;
+}
+
+.header1{
+    background-color: #e6e6e6;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(odd) {
+    background-color: #fbfbfb;
+}
+
+#helpCenter{
+    width: 80%;
+    border: 2px solid rgb(83, 90, 83);
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}

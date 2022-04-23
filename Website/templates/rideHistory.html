@@ -1,0 +1,29 @@
+    {% extends "base.html" %}
+
+    {% block title %}Lift Ride Hailing{% endblock %}
+
+    {% block content %}
+    <div id="historyTableMain">
+        <table id="historyTable">
+            <h1 align="center" id="historyTitle">Ride History</h1>
+            <tr>
+                <th class="header">Order ID</th>
+                <th class="header">Pick Up Location</th>
+                <th class="header">Drop off Location</th>
+                <th class="header">No. of Passengers</th>
+                <th class="header">Cost</th>
+            </tr>
+            <!-- Running a for loop to gather all the rows of the transaction from database -->
+            <!-- Store each row from the database into the table -->
+            {% for transaction in user.transactionOrder %}
+            <tr>
+                <td class="data">{{ transaction.id }}</td>
+                <td class="data">{{ transaction.pickUpLocation }}</td>
+                <td class="data">{{ transaction.dropOffLocation }}</td>
+                <td class="data">{{ transaction.numOfPassengers }}</td>
+                <td class="data">SGD {{ transaction.costPrice }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% endblock %}
